@@ -1,0 +1,52 @@
+
+body{
+  background-image: url("../img/flower-image.jpg");
+  background-color: #98FB98;
+  background-size: cover;
+  opacity: 80%;
+}
+h1, h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  word-spacing: 0.25em;
+  font-family: 'Fantasy', cursive;
+  padding-bottom: 0;
+  margin-bottom: 0.25em;
+}
+h1 {
+  font-size: 3.5vw;
+}
+h2 {
+  font-size: 2.5vw;
+}
+h3 {
+  font-size: 1.5vw;
+}
+
+p {
+  margin-top: 0;
+}
+.major-section {
+  margin: 20px;
+  padding: 10px;
+  border: solid 1px #2E8B57;
+  border-radius: 5px;
+  background-color: rgb(60,179,113);
+}
+
+.minor-section {
+  padding: 1px 20px;
+  margin: 10px;
+  background-color: #98FB98;
+}
+
+nav a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 105%;
+  text-decoration: none;
+}
+
+nav a:hover {
+   text-decoration: underline;
+ }

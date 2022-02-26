@@ -1,9 +1,11 @@
 
 body {
-    font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: indigo;
-    padding: 25px;
-    font-size: 120%;
+font-family: Fantasy, Jazz LET, "Fantasy";
+  background-color:
+  color: indigo;
+  border: solid 8px indigo;
+  padding:25px
+  font-size:120%
 }
 
 div#content {
@@ -20,7 +22,7 @@ div#screenshots {
 }
 
 h1, h2, h3 {
-    font-family: "Courier New", monospace;
+    font-family: "Fantasy", Jazz LET;
 }
 
 img {
@@ -35,5 +37,5 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
+    text-decoration-style: dashed;
 }
