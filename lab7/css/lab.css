@@ -3,7 +3,7 @@ body{
   background-image: url("../img/flower-image.jpg");
   background-color: #98FB98;
   background-size: cover;
-  opacity: 80%;
+  opacity: 50%;
 }
 h1, h2, h3 {
   text-transform: uppercase;
@@ -45,6 +45,9 @@ nav a {
   text-transform: uppercase;
   font-size: 105%;
   text-decoration: none;
+}
+#homepage {
+  text-align: center;
 }
 
 nav a:hover {
