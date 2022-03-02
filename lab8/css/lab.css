@@ -5,8 +5,10 @@ body {
   color: #404040;
   background-color: #98FB98;
 }
+#minor-section {
+  border: ridge 7px #000000;
+}
 #title, #minor-section {
-  border:  5px #000000;
   padding: auto 20px 10px 20px;
   width: 95%;
   margin-bottom: 20px;
@@ -36,15 +38,11 @@ h1, h2:hover {
   padding: 15px;
   border-image: url(../img/monolake-tufa.jpg) 30 round;
 }
-.image1, .image2 img{
-  border: 5px;
-
+.image1 img{
+  border: dotted 5px #000000;
 }
 .image1 img:hover {
   filter:hue-rotate(80deg);
-}
-.image2 img:hover {
-  filter:grayscale(90deg);
 }
 nav a {
   color: black;
