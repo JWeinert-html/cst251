@@ -39,7 +39,7 @@ h1, h2:hover {
   border-image: url(../img/monolake-tufa.jpg) 30 round;
 }
 .image1 {
-  float: right;
+  float: center;
   margin: 15px;
 }
 .image1:hover {
