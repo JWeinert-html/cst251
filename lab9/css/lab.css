@@ -1,0 +1,33 @@
+body {
+  /* background-color: #5f9ea0; */
+  background-color: #219ebc;
+  font-family: Verdana, sans-serif;
+}
+h1,h2 {
+  text-shadow: 2px 2px #fb8500;
+}
+#content {
+  background-color: #8ecae6;
+  padding: 0 10px;
+  border: solid #023047 4px;
+  margin: auto;
+  color: #fff;
+}
+#movie-poster {
+  width: 330px;
+  height: auto;
+  padding: 10px;
+  margin:10px;
+  background-color: #ffb703;
+}
+img{
+  max-width: 100%;
+  width: 100%;
+}
+a{
+  text-decoration: underline wavy;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:90%;
+    color: #fb8500;
+}
