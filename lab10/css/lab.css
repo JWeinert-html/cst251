@@ -1,0 +1,45 @@
+body {
+  background-color: #ff7b00;
+}
+#content {
+  margin: 20px;
+  padding: 60px;
+  border: dashed 50px #ffea00;
+  background-color: #ffc300;
+}
+
+/* typography */
+body {
+  font-family: "jeanne-moderno-ultra";
+font-weight: 800;
+font-style: normal;
+  color: #003566;
+  text-align: center;
+}
+h1 {
+  font-family: "jeanne-moderno-geometrique",sans-serif;
+font-weight: 600;
+font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+p {
+  font-family: "jeanne-moderno-regular"
+}
+nav #homepage {
+  font-family: "jeanne-moderno-ultra"
+}
+
+/* hover stuff */
+h1:hover {
+  background-color: #ffea00;
+  border: dashed 5px #fff;
+}
+  h2:hover{
+  background-color: #ffea00;
+  border: dashed 5px #fff;
+}
+a:hover {
+  background-color: #ffea00;
+  border: dashed 5px #fff;
+}
