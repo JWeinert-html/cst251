@@ -3,8 +3,10 @@ body {
   font-size: 15px;
   line-height: 1.5;
   color: #404040;
-  background-color: #98FB98;
+  background-color: #90ee90;
 }
+  }
+  /*border, fonts, and h1, h2:hover, white background box*/
 #minor-section {
   border: ridge 7px #000000;
 }
@@ -30,25 +32,24 @@ h1, h2:hover {
 }
 .summary {
   padding: 1px 10px;
-  border-image: url(../img/monolake-tufa.jpg) 30 round;
   background-color: white;
 }
-#borderimg {
-  border: 10px solid transparent;
-  padding: 15px;
-  border-image: url(../img/monolake-tufa.jpg) 30 round;
-}
+/*image borders,hover,transition*/
 .image1 img{
   border: dotted 5px #000000;
 }
 .image1 img:hover {
   filter:hue-rotate(80deg);
 }
+.image1 img{
+  transition: all 3s ease-out;
+}
+/*homepage navigation*/
 nav a {
   color: black;
   text-transform: uppercase;
   font-size: 105%;
-  text-decoration: none;
+  text-decoration: underline wavy pink;
 }
 #homepage {
   text-align: center;
@@ -56,7 +57,4 @@ nav a {
 nav a:hover {
    text-decoration: underline;
    color: pink;
- }
- !important:after{
-   color: red;
  }

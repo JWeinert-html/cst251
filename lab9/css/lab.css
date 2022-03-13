@@ -23,7 +23,12 @@ h1,h2 {
 img{
   max-width: 100%;
   width: 100%;
+/*position: absolute;
+left: 0px;
+right: 0px;
+z-index: -1;*/
 }
+
 a{
   text-decoration: underline wavy;
     text-transform: uppercase;
