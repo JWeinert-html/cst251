@@ -1,0 +1,82 @@
+body {
+  background-color: #94d2bd;
+  background-image: url("../img/mammoth-sunny-day.jpg");
+  border: ridge 10px #0a9396;
+}
+a {
+  text-decoration: none;
+  color: #9b2226;
+  letter-spacing: 2px;
+}
+div#content {
+  margin: 10px;
+  padding: 100px;
+  background-color: #e9d8a6;
+  border: ridge 10px #0a9396;
+  min-height: 80vh;
+}
+/* typography */
+div#content {
+    font-family: "jeanne-moderno-ultra";
+    font-weight: 800;
+    font-style: normal;
+    color: #001219;
+    left: 15px;
+}
+h1 {
+  font-family: "jeanne-moderno-geometrique",sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+p {
+  font-family: "jeanne-moderno-regular";
+  font-size: large;
+  left: 0px;
+  word-spacing: 2px;
+  line-break: loose;
+}
+/* more specifics */
+aside#sidebar {
+  margin-top: 5px;
+  display: inline-block;
+  min-width: 300px;
+  width: 30%;
+  right: 15px;
+  float: right;
+  background-color: #94d2bd;
+  border: ridge 5px #001219;
+}
+/* image specs */
+div#landscape {
+    padding: 20px;
+    background-color: #001219;
+    width: 50%;
+    height: auto;
+    float: center;
+  }
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+/* navigation bar */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #001219;
+    border: dotted 3px #0a9396;
+}
+/* hover stuff */
+h1:hover {
+  text-shadow: 2px 2px #000;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+img:hover {
+  filter: grayscale(200%);
+  transition-duration: 2s;
+}
