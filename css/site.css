@@ -37,7 +37,16 @@ div#selfies {
     height: auto;
     float: center;
   }
-
+sidebar#aside {
+  margin-top: 5px;
+  display: inline-block;
+  min-width: 300px;
+  width: 30%;
+  right: 15px;
+  float: right;
+  background-color: #94d2bd;
+  border: ridge 5px #001219;
+}
 img {
     max-width: 100%;
     width: 100%;
