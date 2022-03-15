@@ -54,7 +54,7 @@ div#landscape {
     background-color: #001219;
     width: 50%;
     height: auto;
-    float: center;
+    /* float: right; */
   }
 img {
     max-width: 100%;
