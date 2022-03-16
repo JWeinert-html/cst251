@@ -1,0 +1,80 @@
+/* general */
+body {
+  background-color: #dde5b6;
+}
+/* nav bar */
+nav {
+  position: sticky;
+    top: 0;
+    background-color: #adc178;
+    border: dotted 10px #f08080;
+    color: #f4978e;
+}
+nav a{
+  color: #000;
+}
+ #content{
+  background-color: #f0ead2;
+  margin: 20px;
+  padding: 60px;
+  border: dashed 50px #fbc4ab;
+}
+/* typography */
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 90%;
+}
+body {
+  font-family: "jeanne-moderno-ultra";
+  font-weight: 800;
+  font-style: normal;
+  color: #6c584c;
+  text-align: center;
+}
+h1, h2, h3 {
+  color: #a98467;
+  text-transform: uppercase;
+}
+p {
+  font-family: "jeanne-moderno-regular";
+}
+/* headings */
+h1 {
+  margin-top: 8px;
+  margin-left: -10px;
+}
+/* styling elements */
+
+#floated{
+  float: right;
+}
+#floated *{
+  float: right;
+  clear: both;
+}
+.center-div {
+  width: 30%;
+  height: 400px;
+  border: solid 2px #004b23;
+}
+.center-div img{
+  max-width: 150px;
+  height: auto;
+  min-width: inherit;
+}
+#center-horz{
+  text-align: center;
+}
+#center-img{
+  text-align: center;
+}
+#center-both{
+  position: relative;
+}
+#center-both img{
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
