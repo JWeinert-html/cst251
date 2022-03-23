@@ -1,0 +1,50 @@
+body {
+  background-image: url('../img/sun_1.jpeg');
+  background-color: #fff;
+  background-size: 932px 600px;
+}
+/* *TOP NAV BAR* */
+.bar {
+  /* border: solid 5px #000; */
+  position:absolute;
+  top: 0;
+  height: 5vh;
+  width: 100%;
+}
+.bar a{
+  color: #000;
+  text-decoration: none;
+}
+  #home {
+  left:0;
+  position: absolute
+}
+  #interesting {
+  right: 0;
+  position: absolute;
+}
+/* *MAIN FEATURE* */
+#feature {
+  position: absolute;
+    top: 5vh;
+    left: 10vh;
+    width: 100%;
+    text-align: center;
+    max-width: 350px;
+}
+ #feature .year p{
+  /* border: solid 5px #000; */
+  font-size: 210px;
+  font-family: 'arya-single',sans-serif;
+  font-weight: 1px;
+  font-style: normal;
+  letter-spacing: -10px;
+  margin: 20vh 0vh 12vh;
+}
+ .paragraph p{
+  /* border: solid 5px #000; */
+  text-align: center;
+  top: 18vh;
+  color: #fff;
+  background-color: #fff;
+}

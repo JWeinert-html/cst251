@@ -1,0 +1,60 @@
+body {
+  background-image: url('../img/space-backgrd.jpg');
+  background-size: cover;
+  background-color: #0d2132;
+  margin-top: 200px;
+  margin-left: 400px;
+}
+/* typography */
+#title {
+  width: 100%;
+  text-align: center;
+}
+#title h1{
+  font-family: "pauline" ,sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #71c0ba;
+  font-size: 10vw;
+  text-shadow: 2px 2px #4F6D7A;
+  transform: rotate(20deg);
+}
+#shrink {
+  font-size: smaller;
+}
+#subtitle {
+  font-size: 70vw;
+  color: #f0a077;
+  top: 125%;
+  font-family: "giulia" ,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+p {
+  color: #0d2132;;
+  top: 130%;
+  font-family: "giulia" ,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+/* style */
+#content{
+  text-align: center;
+  line-height: 1em;
+}
+.button{
+  background-color: #f95f5a;
+  shape-outside: circle(50%);
+}
+.textstuff {
+  top:15%;
+  left:50%;
+  transform: translate(-25%, -25%);
+}
+
+/* .textstuff {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-25%, 50%);
+} */

@@ -8,18 +8,28 @@ body {
 }
 /* typography */
 #title {
-  font-family: "bulletto-killa.ttf";
+  line-height: 1;
+  position: relative;
+  width: 800px;
+  transform: rotate(-2deg);
+  margin-top: 300px;
+}
+#shrink {
+  font-size: 4.65rem;
 }
 h1 {
+  font-size:6.25rem;
   font-family: "pauline" ,sans-serif;
   font-weight: 700;
   font-style: italic;
-  color: #71c0ba;
-  font-size: 500%;
-  text-shadow: 1px 1px #4F6D7A;
+  color: cyan;
+  text-shadow: 2px 2px turquoise;
 }
 #subtitle {
-  font-size: 70%;
+  text-align: center;
+}
+h3 {
+  font-size: 1rem;
   color: #f0a077;
   top: 125%;
   font-family: "giulia" ,sans-serif;
@@ -36,12 +46,18 @@ p {
 /* style */
 .button{
   background-color: #f95f5a;
-  shape-outside: round;
+  border-radius: 3rem;
+  padding: 1.2rem, 2rem;
+  display: inline-block;
+  text-transform: uppercase;
+
 }
-.textstuff {
+.content {
   top:15%;
   left:50%;
-  transform: translate(-25%, -25%);
+  transform: translate(-15%, -50%);
+  line-break: 2em;
+  text-align: center;
 }
 
 /* .textstuff {
