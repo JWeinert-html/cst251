@@ -5,7 +5,47 @@ body {
   margin-top: 200px;
   margin-left: 400px;
   width: 600px;
+  z-index: -200;
 }
+/* PNG Stuff */
+/* #planets {
+  z-index: -100;
+  max-width: 200px;
+}
+  .big-planet png{
+    /* float: right 0px;
+    z-index: -10;
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    width: 200px;
+  }
+  .blue-planet png{
+    /* float: left 10px;
+    z-index: -20;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    max-width: 200px;
+
+  }
+  .comet png{
+    bottom: 10px;
+    left: 15px;
+    max-width: 200px;
+
+  }
+  .little-planet png{
+    bottom: 0px;
+    left: 10px;
+    max-width: 200px;
+
+  }
+  .tiny-planet png{
+    bottom: 0px;
+    left: 5px;
+    max-width: 200px;
+  } */
 /* typography */
 #title {
   line-height: 1;
@@ -13,6 +53,8 @@ body {
   width: 800px;
   transform: rotate(-2deg);
   margin-top: 300px;
+  margin-left: -10px;
+  z-index: 100;
 }
 #shrink {
   font-size: 4.65rem;
@@ -42,6 +84,7 @@ p {
   font-family: "giulia" ,sans-serif;
   font-weight: 300;
   font-style: normal;
+  z-index: 50;
 }
 /* style */
 .button{
@@ -50,7 +93,9 @@ p {
   padding: 1.2rem, 2rem;
   display: inline-block;
   text-transform: uppercase;
-
+  height: 50px;
+  width: 120px;
+  z-index: 40;
 }
 .content {
   top:15%;
