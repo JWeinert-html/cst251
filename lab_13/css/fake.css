@@ -91,7 +91,7 @@ p {
 .button{
   background-color: #f95f5a;
   border-radius: 3rem;
-  padding: 1.2rem, 2rem;
+  padding: 1.2em, 2em, 5em;
   display: inline-block;
   text-transform: uppercase;
   height: 50px;
