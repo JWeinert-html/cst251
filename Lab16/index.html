@@ -1,17 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab  - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<title>Lab 16 - Fancy CSS II</title>
+	<link rel="stylesheet" href="https://use.typekit.net/drc4fuh.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
-	<div id="content">
-	<h1>Lab 11</h1>
+		<nav id="homepage">
+			<link><a href="../index.html" alt="homepage">Back Home</a></link>
+		</nav>
+		<div id="content">
+	<h1>Lab 16</h1>
 	<h2>Challenge</h2>
+		<p>The challenge is to create more CSS stylesheet effects. Some examples:
+		more backgrounds, transistions, animation, and columns. Therefore I used
+	 	some old images from Death Valley sand dunes to as a background image and
+		some additional small images. It was a bit glitchy with various transistions
+		overlapping. Finally, I added the animation effect to a tumbleweed.png that
+		I found on google. I will give it more of a "tumble" effect later.</p>
 	<h2>Problem</h2>
+		<p>The first problem that I ran into is the object-fit and transition break.
+			I initially had resized an image with object-fit, then later thought it would
+			be cool to add a transition so when the user hovers over the image, it becomes
+			larger. But it didn't work at all, and I refered to stackoverflow, apparently
+			object-fit breaks transitions. And I found an alternative solution.
+			Then I had another issue with the smoothness of the transition. With more images,
+			I decided to have the images not only change size but also move to another part of
+			the page. However, the image on the right has an awkard glitching issue everytime
+			I hover the mouse over it, and thus I have not resolved the problem.
+			And another problem that was too time-consuming. The animation, I eventually
+			was able to get the tumbleed to move, however I would like to spend more time
+			to figure out how to make it tumble rather than slide left to right.</p>
 	<h2>Results</h2>
 </div>
+<div class="photos">
+<div id="dunes">
+	<img src="./img/landscape-dunes.jpeg" alt="landscape-dunes">
+</div>
+<div id="cones">
+	<img src="./img/cones.jpeg" alt="cones">
+</div>
+<!-- <div id="sand">
+	<img src="./img/sand.jpeg" alt="sand">
+</div> -->
+</div>
+<br>
+<div id="lonely-tumbleweed">
+	<img src="./img/tumbleweed.png" alt="tumbleweed">
+</div>
+
+
 
 </body>
 </html>
