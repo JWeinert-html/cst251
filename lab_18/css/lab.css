@@ -1,0 +1,57 @@
+body {
+  background-color: #8491A3;
+  margin: 8px;
+  padding: 8px;
+}
+
+header {
+  border: 3px ridge #f1faee;
+}
+
+nav {
+  border: 3px ridge #f1faee;
+}
+
+main {
+  border: 3px ridge #f1faee;
+}
+
+section {
+  border: 3px ridge #f1faee;
+}
+
+footer {
+  border: 3px ridge #f1faee;
+}
+
+div img{
+  max-width: 30%;
+  height: auto;
+}
+/* in class */
+header{
+  display: flex;
+  flex-grow: 1;
+}
+main {
+  display: flex;
+  flex-grow: 3;
+}
+nav #links{
+  display: flex;
+  flex-grow: 0.5;
+}
+#challenge{
+  flex-grow: 1;
+}
+#problem{
+  flex-grow: 3;
+}
+#results{
+  flex-grow: 1;
+}
+@media screen and (max-width:750px){
+  nav #links, #flex-container {
+    width: 100%!important;
+  }
+}
