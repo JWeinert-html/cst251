@@ -1,0 +1,26 @@
+nav{
+  float: top 0px;
+  position: sticky;
+  border: solid 3px #065143;
+}
+header{
+  float: left 0px;
+  border: solid 3px #065143;
+}
+main{
+  float: center;
+  border: solid 3px #065143;
+}
+section{
+  float: none;
+  border: solid 3px #065143;
+}
+aside{
+  float: right 0px;
+  border: solid 3px #065143;
+
+}
+footer{
+  float: bottom 0px;
+  border: solid 3px #065143;
+}

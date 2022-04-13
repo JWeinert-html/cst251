@@ -1,0 +1,115 @@
+
+html {
+  background-image: url("../img/dune-img.jpeg");
+  background-size: cover;
+}
+div#content {
+  padding: 15px;
+  margin: 10px;
+  background-color:#BF472C;
+  border: ridge 5px #732E1F;
+  opacity: 100%;
+  transition: 1.5s;
+  transition-delay: 0.5s;
+}
+
+/* font stuff */
+h1, h2{
+  color: #732E1F;
+}
+p{
+  color: #;
+}
+#content h1, h2{
+  font-family: "cherry-blossoms-wide", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+#content p{
+  font-family: sans-serif;
+}
+#homepage a{
+  font-family: "cherry-blossoms-wide", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+#content p{
+  column-count: 4;
+}
+
+/* images */
+
+/* #sand img{
+  width: 25%;
+  height: auto;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  transition: 1s ease-out;
+
+} */
+#dunes img{
+  width: 325px;
+  height: 102px;
+  left:23%;
+  position: absolute;
+  transition: 1s ease-out;
+}
+#cones img{
+  width: 25%;
+  height: auto;
+  right: 0;
+  position: absolute;
+  transition: 1s ease-out;
+}
+.pictures{
+  margin: 20px;
+  padding-top: 20px;
+}
+/* nav stuff */
+nav {
+  left: 15px;
+  position: sticky;
+  top: 0;
+  background-color: #732E1F;
+  background-image: linear-gradient(#BF472C, #732E1F);
+}
+/* hover stuff */
+#content:hover{
+  opacity: 25%;
+}
+#dunes img:hover{
+  width: 624px;
+  height: 302px;
+}
+/* #sand img:hover{
+  left: 10%;
+  width: 50%;
+  height: auto;
+} */
+#cones img:hover{
+  right: 8%;
+  bottom:0;
+  width: 50%;
+  height: auto;
+}
+
+/*** png ***/
+
+#lonely-tumbleweed img{
+  width: 200px;
+  height: auto;
+  bottom:0;
+  position: relative;
+  z-index: 100;
+  animation: mymove 5s infinite;
+  animation-name: tumbleweed;
+  animation-duration: 5s;
+
+
+}
+/* animation stuff */
+@keyframes tumbleweed{
+  from{left: 0px}
+  to{left: 800px}
+}
