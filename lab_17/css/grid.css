@@ -1,0 +1,52 @@
+body{
+  display: grid;
+  background-color: #03045e;
+  padding: 10px;
+  gap: 9px;
+}
+img{
+  max-width: 20vw;
+}
+main{
+  display: grid;
+  color: #fff;
+  border: solid 3px #fff;
+  column-gap: 9px;
+}
+header{
+  display: grid;
+  border: solid 3px #fff;
+  color: #fff;
+}
+footer{
+  border: solid 3px #fff;
+  display: grid;
+  color: #fff;
+}
+nav{
+  border: solid 3px #fff;
+  display: grid;
+}
+aside{
+  border: solid 3px #fff;
+  display:grid;
+  gap: 9px;
+}
+
+/* w3schools stuff */
+#links {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3px;
+  background-color: #2196F3;
+  padding: 3px;
+}
+#links > div {
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  padding: 9px 0;
+}
+.top-left { grid-area: 1; }
+.bottom-left { grid-area: 2; }
+.top-right {grid-area: 1 / 2; }
+.bottom-right {grid-area: 2 / 1; }

@@ -1,0 +1,76 @@
+body {
+  background-color: #8491A3;
+}
+
+header {
+  border: 3px ridge #f1faee;
+  background-color: #98f5e1;
+}
+
+nav {
+  border: 3px ridge #f1faee;
+  background-color: #03045e;
+}
+
+
+main {
+  border: 3px ridge #f1faee;
+  background-color: #03045e;
+  width: 50vw;
+
+}
+
+section {
+  border: 3px ridge #f1faee;
+  background-color: #94d2bd;
+
+}
+
+footer {
+  border: 3px ridge #f1faee;
+}
+#images{
+  background-color: #ddbea9;
+  width: 100%;
+  }
+}
+
+div img{
+  max-width: 500px;
+  height: auto;
+  width: 100%;
+}
+img:hover{
+  width: 500px;
+}
+/* in class */
+header{
+  display: flex;
+  flex-grow: 1;
+}
+ #flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-grow: 3; */
+}
+nav #links{
+  display: flex;
+  /* flex-grow: 0.5; */
+}
+#challenge{
+  /* flex-grow: 1; */
+}
+#problem{
+  /* flex-grow: 3; */
+}
+#results{
+  /* flex-grow: 1; */
+}
+@media screen and (max-width:800px){
+  #flex-container{
+    flex-wrap: wrap;
+  }
+  #flex-container>* {
+    width: 100%!important;
+  }
+}
