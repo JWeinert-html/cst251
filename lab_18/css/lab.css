@@ -40,11 +40,13 @@ min-width: 40vw;
     border: black solid 3px;
     flex-direction: row;
     display: flex;
-    height: 400px;
+    height: 750px;
     align-items: flex-start;
 }
 .content{
   border: black solid 3px;
+  margin: 12px;
+  padding: 12px;
 }
 .navbar a {
   float: left;
