@@ -1,57 +1,60 @@
-body {
-  background-color: #8491A3;
-  margin: 8px;
-  padding: 8px;
+body{
+  background-color: #cfe1b9;
 }
 
-header {
-  border: 3px ridge #f1faee;
-}
-
-nav {
-  border: 3px ridge #f1faee;
-}
-
-main {
-  border: 3px ridge #f1faee;
-}
-
-section {
-  border: 3px ridge #f1faee;
-}
-
-footer {
-  border: 3px ridge #f1faee;
-}
-
-div img{
-  max-width: 30%;
-  height: auto;
-}
-/* in class */
 header{
+  border: black solid 3px;
+  color: white;
+  background-color: #588157;
   display: flex;
-  flex-grow: 1;
+  justify-content: center;
+  font-family: sans-serif;
+  /* z-index: 0; */
 }
-main {
+
+img{
+height: auto;
+width:40vw;
+min-width: 40vw;
+}
+
+/* .navbar{
   display: flex;
-  flex-grow: 3;
+  flex-direction: column;
+  left: 15px;
+  top: 40px;
+  z-index: 10;
+  color: #fff;
+  text-align: left;
+} */
+.navbar a{
+  text-decoration: none;
+  color: #fff;
 }
-nav #links{
+.flex-containter{
+  border: black solid 3px;
   display: flex;
-  flex-grow: 0.5;
+  flex-wrap: wrap;
 }
-#challenge{
-  flex-grow: 1;
+.images{
+    border: black solid 3px;
+    flex-direction: row;
+    display: flex;
+    height: 400px;
+    align-items: flex-start;
 }
-#problem{
-  flex-grow: 3;
+.content{
+  border: black solid 3px;
 }
-#results{
-  flex-grow: 1;
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
-@media screen and (max-width:750px){
-  nav #links, #flex-container {
-    width: 100%!important;
-  }
+@media screen and (max-width: 600px){
+  .images img{
+    width:100% !important;
 }
