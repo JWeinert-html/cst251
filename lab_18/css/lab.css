@@ -1,21 +1,25 @@
 body{
   background-color: #cfe1b9;
+  flex-wrap: wrap
 }
-
+#main{
+  padding: 27px;
+}
 header{
   border: black solid 3px;
   color: white;
   background-color: #588157;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   font-family: sans-serif;
   /* z-index: 0; */
 }
 
 img{
-height: auto;
-width:40vw;
-min-width: 40vw;
+width:70%;
+padding: 18px;
+
 }
 
 /* .navbar{
@@ -40,8 +44,8 @@ min-width: 40vw;
     border: black solid 3px;
     flex-direction: row;
     display: flex;
-    height: 750px;
     align-items: flex-start;
+    flex-wrap: wrap
 }
 .content{
   border: black solid 3px;
