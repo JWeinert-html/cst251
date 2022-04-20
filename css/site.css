@@ -55,6 +55,8 @@ sidebar#aside {
   padding: 12px;
 }
 img {
+  display: flex;
+  flex-wrap: wrap;
     max-width: 100%;
     width: 100%;
     height: auto;
@@ -75,4 +77,9 @@ a:hover {
 img:hover {
   filter: grayscale(200%);
   transition-duration: 2s;
+}
+@media screen and (max-width: 600px){
+  .images img{
+    width:100% !important;
+
 }
