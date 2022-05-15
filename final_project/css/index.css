@@ -1,3 +1,4 @@
+/* main */
 body{
   background-color: #5BA6A6;
   padding: 3%;
@@ -8,7 +9,7 @@ body{
 }
 .map-img{
   width: 100%;
-  /* z-index: -100; */
+  border: solid #000 2px;
 }
 header{
   border: solid 5px #000;
@@ -16,6 +17,8 @@ header{
   width: 100%;
   height:50%;
 }
+
+/* typography */
 h1{
   font-family: "antiquarian-scribe",sans-serif;
   font-weight: 400;
@@ -39,9 +42,12 @@ h3{
   text-align: center;
   font-size: 2em;
 }
+
+
+/* ex marks */
 .ex{
   position: absolute;
-  border: solid 1px red;
+  /* border: solid 1px red; */
   width: 40px;
   height: 40px;
 }
@@ -69,50 +75,53 @@ h3{
 }
 .red-ex{
   opacity:0;
-  transition: 2s;
+  transition: 0.5s;
   z-index: 1;
 }
 .red-ex:hover{
   opacity:1;
 }
+
+/* movie-content-stuff ****/
 .movie-content{
-  border: solid #000 5px;
-  padding: 3%;
+
+}
+#santa-cruz-content, #monterey-content, #carmel-content, #big-sur-content{
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(191, 147, 94, 0.4);
 }
 .santa-cruz, .monterey-bay, .carmel, .big-sur{
   margin-top: 10px;
-  border: solid #000 2px;
+  border: ridge #BF935E 7px;
   background-image: url("../img/paper2.jpg");
-  background-color: #5BA6A6;
+  background-color: #BF935E;
   background-repeat: repeat;
-  padding: 12px;
+  padding: 10px;
 }
-
-img{
+.movie-content img{
   width: 80%;
   border: solid #000 2px;
+  filter: sepia(1);
+}
+.movie-content img:hover {
+  filter: none;
+  transition: 0.5s;
 }
 #info{
   background-color: #BF935E;
 }
- #navbar{
-  border: 2px solid #000;
-  background-color: #95BBBF;
-  width: 20%;
-  position: sticky;
-  top:0;
-}
-.carmel{
-  border: solid #000 2px;
-  background-color:#95BBBF;
-}
-#carmel-content{
-  position: relative;
-}
-.big-sur{
-  background-color:#95BBBF;
-}
 #big-sur-content{
   columns: 2;
   padding: 3%;
+}
+/* navbar */
+#navbar{
+ /* border: 2px solid #000; */
+ width: 20%;
+ position: sticky;
+ top:0;
+}
+#navbar img{
+  width: 50%;
 }
