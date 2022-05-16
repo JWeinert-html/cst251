@@ -83,13 +83,11 @@ h3{
 }
 
 /* movie-content-stuff ****/
-.movie-content{
-
-}
 #santa-cruz-content, #monterey-content, #carmel-content, #big-sur-content{
   padding: 20px;
   text-align: center;
   background-color: rgba(191, 147, 94, 0.4);
+  line-height: 2;
 }
 .santa-cruz, .monterey-bay, .carmel, .big-sur{
   margin-top: 10px;
